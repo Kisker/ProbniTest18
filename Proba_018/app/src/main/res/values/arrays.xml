@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+//  android:entries: lista stringova citljiva korisniku
+//  android:entryValues: lista stringova koja cuva vrednost za Preference kada je jedan unos iz entries selektovan
+//  na primer, ako uzmemo za primer minute za svako trajanje kao unetu vrednost, kada korisnik izabere vremensku vrednost (na primer 10 minuta)
+//  the corresponding integer value bit ce sacuvan u SharedPreferences (na primer 10).
+    <string-array name="pref_syncConnectionTypes_entries">
+        <item>1 min</item>
+        <item>10 min</item>
+        <item>30 min</item>
+        <item>60 min</item>
+    </string-array>
+
+    <string-array name="pref_syncConnectionTypes_values">
+        <item>1</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+
+    <string-array name="izmena_imenaUnosi">
+        <item>Restoran 1</item>
+        <item>Restoran 2</item>
+        <item>Restoran 3</item>
+    </string-array>
+
+    <string-array name="izmena_imenaVrednosti">
+        <item>Restoran 1</item>
+        <item>Restoran 2</item>
+        <item>Restoran 3</item>
+    </string-array>
+
+    <string-array name="izmena_adreseUnosi">
+        <item>Adresa 1</item>
+        <item>Adresa 2</item>
+        <item>Adresa 3</item>
+    </string-array>
+
+    <string-array name="izmena_adreseVrednosti">
+        <item>Adresa 1</item>
+        <item>Adresa 2</item>
+        <item>Adresa 3</item>
+    </string-array>
+
+</resources>
